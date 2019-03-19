@@ -1,0 +1,34 @@
+html {
+  background-color: #fffafa;
+}
+
+body {
+  width: 85%;
+  margin: 0 auto;
+}
+
+#header {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2em 0em;
+}
+
+#header img {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+#buttonContainer button {
+  margin: 15px;
+}
+
+#gifsContainer {
+  width: 60%;
+  float: left;
+}
+
+#formContainer {
+  float: right;
+  width: 40%;
+}
