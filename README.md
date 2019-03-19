@@ -1,6 +1,6 @@
 # GIFtastic Game of Thrones
 
-The initial page displays preset buttons that, when clicked, will display 10 GIFs related to the button's label/topic that will be pulled from the GIPHY database using the GIPHY API. The GIFs pulled will initially be static/non-moving, but the state of the GIFs will change if a user clicks on them. (A still GIF will animate when clicked, and an animated GIF will become static when clicked)
+The initial page displays preset buttons that, when clicked, will populate the page with 10 GIFs related to the button's label/topic. These GIFs will be pulled from the GIPHY database using the GIPHY API. The GIFs pulled will initially be static/non-moving, but the state of the GIFs will change if a user clicks on them. (A still GIF will animate when clicked, and an animated GIF will become static when clicked)
 
 Under every GIF, the rating of the GIF (pulled from the GIPHY API) will be displayed.
 
