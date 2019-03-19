@@ -15,7 +15,7 @@ initialButtons();
 
 // Add GIFs on Button Click
 
-$('.gifButton').on('click', function () {
+$(document).on('click', '.gifButton', function () {
 
   var queryURL = 'https://api.giphy.com/v1/gifs/search?q=' + this.id.replace(/\s/g, '-') + '&api_key=wnF5o6kaFkZK4yMVIe4bJPlY1IZpPE5w&limit=10';
 
@@ -60,4 +60,5 @@ $('#submit').on('click', function () {
   var newID = $('#newInput').val();
   var userButton = $('<button>').attr('id', newID).html(newID).addClass('gifButton');
   $('#buttonContainer').append(userButton);
+  $('#newInput').val('')
 });
